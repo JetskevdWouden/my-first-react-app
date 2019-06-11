@@ -25,9 +25,20 @@ class App extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React<br></br>
+    {/* You can insert values or expressions iusiong curly bracets */}
+    {/* What values are allowed? */}
+    {/* string, numbers, array of strings or react components */}
+    {/* not allowed: objectsallowed but doesnt do anything */}
+    {/* booleans, undefined, null */}
+            {null}
+            {/* {undefined} - returning undefined is not allowed */}
+            {['hello', 'okidoki', 'jalajala']}
+            {[<Greeting />, <Greeting />, <Greeting />]}
+            {/* { {} } - throw an error - can render prop valuews of objects is they are typeof allowed data type */}
             {'Just a test'}
             {5+5}
+            {true}
           </a>
         </header>
       </div>
