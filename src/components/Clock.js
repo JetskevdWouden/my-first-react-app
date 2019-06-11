@@ -25,9 +25,9 @@ export default class Clock extends Component {
         return(
             <div>
                 <h2>The Time is:</h2>
-                <span>{this.state.time.getHours()}: </span>
-                <span>{this.state.time.getMinutes()}: </span>
-                <span>{this.state.time.getSeconds()}</span>
+                <span id="hours">{this.state.time.getHours()}: </span>
+                <span id="minutes">{this.state.time.getMinutes()}: </span>
+                <span id="seconds">{this.state.time.getSeconds()}</span>
             </div>
         )
     }

@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+#hours {
+  color:blue;
+}
+
+#minutes {
+  color: orange;
+}
+
+#seconds {
+  color: red;
+}
