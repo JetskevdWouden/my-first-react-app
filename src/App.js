@@ -26,6 +26,8 @@ class App extends React.Component {
             rel="noopener noreferrer"
           >
             Learn React
+            {'Just a test'}
+            {5+5}
           </a>
         </header>
       </div>
@@ -42,6 +44,7 @@ class Greeting extends React.Component {
 }
 
 //call greeting component <Gretting /> ^
+//you cna insert values using {} --> { 'I am a string'}
 
 
 export default App;
